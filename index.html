@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   </head>
 
 <body>
@@ -19,41 +22,49 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              
               <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Habilidades</a>
+                <a class="nav-link" href="#habilidades">Habilidades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Proyectos</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contactos</a>
+                <a class="nav-link" href="#contacto">Contactos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>  
-      <section>
+      <section id="datos-personales">
         <div class="row">
-        <div class="col col-md-3">
-            <img src="img/yo" alt="fotografia personal"/>
+        <div id="retrato" class="col col-md-3">
+          <img src="img/yo" alt="fotografia personal"/>
         </div> 
         <div class="col col-md-9"> 
             <h1>Datos Personales</h1>
-            <img src="img/mapa.png" alt="icono de ubicacion">
-            <h5> Rosario, Santa Fe</h5>
-            <img src="img/telefono.png" alt="icono telefono">
-            <h5>236-4585661</h5>
-            <img src="img/email.png" alt="icono correo electronico">
-            <h5>camilatapia064@gmail.com</h5>
-            <img src="img/linkedin.png" alt="icono linkedin">
-            <h5>linkedin.com/in/camila-tapia-/</h5>
-            <img src="img/sitio-web.png" alt="icono sitio web">
-            <h5>behance.net/camilatapia87</h5>
-        </div>
+            <div class="redes">
+              <img src="img/mapa.png" alt="icono de ubicacion">
+              <h5> Rosario, Santa Fe</h5>
+            </div>
+            <div class="redes">
+              <img src="img/telefono.png" alt="icono telefono">
+              <h5>236-4585661</h5>
+            </div>
+            <div class="redes">
+              <img src="img/email.png" alt="icono correo electronico">
+              <h5>camilatapia064@gmail.com</h5>
+            </div>
+            <div class="redes">
+              <img src="img/linkedin.png" alt="icono linkedin">
+              <h5>linkedin.com/in/camila-tapia-/</h5>
+            </div>
+            <div class="redes">
+              <img src="img/sitio-web.png" alt="icono sitio web">
+              <h5>behance.net/camilatapia87</h5>
+        </div></div>
         </div>        
       </section>
       <section>
@@ -65,7 +76,7 @@
             </p>
         </div>
       </section>
-      <section>
+      <section id="experiencia">
         <div class="row">
         <div class="col col-md-6">
           <h1>Experiencia Laboral</h1>
@@ -126,7 +137,7 @@
               Estudios orientados a la comunicación institucional, recursos humanos, periodismo y redes sociales. Actualmente cursando las últimas tres materias. 
             </div>
             <div class="momento">
-              <h3>2018</h3>
+              <h3>2022</h3>
               <div class="descripcion">
                 Argentina Programa- FrontEnd
                 
@@ -165,39 +176,122 @@
         </div>
         </div>
       </section>
-      <div> 
-        <h1>Habilidades</h1>
-      </div>
-      <div class="flip-container">
-        <div class="card">
-          <div class="frente">
-            <h3>Diseño Gráfico<h3/>
-          </div>
-          <div class="dorso"> 
-            <button>Click Aquí</button>
-          </div>
+      <section id="habilidades">
+        <div> 
+          <h1>Habilidades</h1>
         </div>
-      </div>
-      <div class="flip-container">
-        <div class="card">
-          <div class="frente">
-            <h3>Desarrollo Web<h3/>
-          </div>
-          <div class="dorso"> 
-            <button>Click Aquí</button>
-          </div>
-        </div>
-        <div class="flip-container">
-          <div class="card">
-            <div class="frente">
-              <h3>Comunicación <h3/>
-            </div>
-            <div class="dorso"> 
-              <button>Click Aquí</button>
+        <div class="row">
+          <div class="flip-container">
+            <div class="card">
+              <div class="frente">
+                <h3>Diseño Gráfico<h3/>
+              </div>
+              <div class="dorso"> 
+                <ul>
+                  <li><h6>Edición de imágen y video</h6></li>
+                  <li><h6>Paquete Adobe</h6></li>
+                </ul>
+              </div>
             </div>
           </div>
+          <div class="flip-container">
+            <div class="card">
+              <div class="frente">
+                <h3>Desarrollo Web<h3/>
+              </div>
+              <div class="dorso"> 
+            <ul>
+              <li><h6>HTML 5, CSS 3</h6></li>
+              <li> <h6>JavaScript</h6></li>
+              <li><h6>Phyton</h6></li>
+            </ul>
+              </div>
+            </div>
+          </div>
+          <div class="flip-container">
+            <div class="card">
+              <div class="frente">
+                <h3>Comunicación <h3/>
+              </div>
+              <div class="dorso"> 
+                <ul>
+                  <li><h6>Comunicación Interna y RRHH</h6></li>
+                  <li><h6>Comunicación digital y redes sociales</h6></li>
+                </ul>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="proyectos">
+        <div class="carrousel-proyectos">
+          <h1>Proyectos</h1>
+          <div id="carrousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/discap-auditiva (1).jpg" class="d-block w-100" alt="...">
+                  <div class="sombracarousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/fp-essen.jpg"  class="d-block w-100" alt="...">
+                  <div class="sombra carousel-caption d-none d-md-block">
+                    <h5>Fotoproducto </h5>
+                    <p>fotografia para Essen</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Tapas podcast Fixed.png"  class="d-block w-100" alt="...">
+                  <div class="sombra carousel-caption d-none d-md-block">
+                    <h5>Flyer Institucional</h5>
+                    <p>Placa para nota en el sitio web de Radio UNR</p>
+                  </div>
+                </div>
+               
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contacto">
+        <div class="formulario">
+          <h1>Contacto</h1>
+        <form id="formContacto">
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="number" class="form-control" id="telefono">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="checkbox">
+            <label class="form-check-label" for="checkbox">Verificado</label>
+          </div>
+          <button id="submit" type="submit" class="btn btn-primary">Enviar</button>
+        </form>
       </div>
+      </section>
 
-      </div>
+    <script src="script/script.js"></script>
 </body>
 </html>
